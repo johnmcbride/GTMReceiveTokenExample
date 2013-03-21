@@ -6,7 +6,7 @@
         <DockPanel LastChildFill="True">
             <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
                 <TextBlock>GTM API Key:</TextBlock>
-                <TextBox Name="gtmAPIKey"></TextBox>
+                <TextBox Name="gtmAPIKey" Width="350"></TextBox>
             </StackPanel>
             <Button DockPanel.Dock="Top" Click="Button_Click">Get Token</Button>
             <WebBrowser Name="web1" Navigating="web1_Navigating"></WebBrowser>
